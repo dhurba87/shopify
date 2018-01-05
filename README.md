@@ -22,7 +22,7 @@ $ bundle
 ```
 
 ## Contributing
-I Welcome contributions, Thanks for pitching in!
+Guidelines to follow:
 
 * Fork the repo
 * Create your feature branch (git checkout -b my-new-feature)
