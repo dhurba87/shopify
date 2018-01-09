@@ -8,7 +8,7 @@ Fetch data from shopify which are not available through API call
 
 ## Examples
 ```
-shop = Shopify.new('domain', 'username', 'password')
+shop = ShopifyScrape.new('domain', 'username', 'password')
 date_min = 1.month.ago; date_max = Time.zone.now
 payout_report = shop.payout_report(date_min, date_max) # get payout reports
 sales_report = shop.sales_report(date_min, date_max) # get sales report
