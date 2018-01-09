@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    shopify (0.1.0)
-      rails (~> 5.1.4)
+    shopify-report (0.1.0)
+      rails (~> 5.1, >= 5.1.4)
 
 GEM
   remote: https://rubygems.org/
@@ -66,8 +66,8 @@ GEM
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     rack (2.0.3)
-    rack-test (0.6.3)
-      rack (>= 1.0)
+    rack-test (0.8.2)
+      rack (>= 1.0, < 3)
     rails (5.1.4)
       actioncable (= 5.1.4)
       actionmailer (= 5.1.4)
@@ -112,7 +112,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  shopify!
+  shopify-report!
   sqlite3
 
 BUNDLED WITH
