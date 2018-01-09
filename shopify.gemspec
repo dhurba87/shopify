@@ -5,7 +5,7 @@ require "shopify/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "shopify"
+  s.name        = "shopify-report"
   s.version     = Shopify::VERSION
   s.authors     = ["Dhurba Baral"]
   s.email       = ["dhurba87@gmail.com"]
